@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="pt-AO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo em Mbanza Kongo - Guia do Visitante - Restaurante Yala Nkwu</title>
+    <meta name="description" content="Guia completo para turistas em Mbanza Kongo. Como chegar, onde ficar, o que visitar e o melhor roteiro com parada no Restaurante Yala Nkwu.">
+    <meta name="keywords" content="turismo Mbanza Kongo, guia visitante, roteiro turístico, atrações, Reino do Kongo, UNESCO">
+    
+    <!-- Fontes -->
+    <link href="https://fonts.googleapis.com/css2?family=Georgia:wght@400;700&family=Arial:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS Principal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <div class="logo-emblem">
+                    <i class="fas fa-utensils"></i>
+                </div>
+                Yala Nkwu
+            </a>
+            
+            <nav class="nav" id="navigation" role="navigation">
+                <a href="index.html" class="nav-link">Início</a>
+                <a href="sobre.html" class="nav-link">Sobre</a>
+                <a href="gastronomia.html" class="nav-link">Gastronomia</a>
+                <a href="pratos.html" class="nav-link">Pratos</a>
+                <a href="cultura.html" class="nav-link">Cultura</a>
+                <a href="turismo.html" class="nav-link active">Turismo</a>
+                <a href="contato.html" class="nav-link nav-cta">Reservar</a>
+            </nav>
+            
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        
+        <div class="mobile-menu" id="mobile-menu">
+            <a href="index.html" class="nav-link">Início</a>
+            <a href="sobre.html" class="nav-link">Sobre</a>
+            <a href="gastronomia.html" class="nav-link">Gastronomia</a>
+            <a href="pratos.html" class="nav-link">Pratos</a>
+            <a href="cultura.html" class="nav-link">Cultura</a>
+            <a href="turismo.html" class="nav-link active">Turismo</a>
+            <a href="contato.html" class="nav-link nav-cta">Reservar</a>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" style="background: linear-gradient(135deg, rgba(139, 69, 19, 0.85), rgba(212, 168, 83, 0.75)), url('yala nkuwu-960x640.jpg') center/cover no-repeat;">
+        <div class="hero-content">
+            <h1 class="hero-title">Turismo em Mbanza Kongo</h1>
+            <p class="hero-subtitle">
+                Guia completo para sua visita à cidade histórica<br>
+                Património Mundial UNESCO esperando por si
+            </p>
+            <div class="hero-actions">
+                <a href="#roteiro" class="btn btn-primary">
+                    <i class="fas fa-map-marked-alt"></i>
+                    Ver Roteiro
+                </a>
+                <a href="#contato" class="btn btn-secondary">
+                    <i class="fas fa-calendar-check"></i>
+                    Reservar Mesa
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <main id="main-content">
+        <!-- Informações Gerais -->
+        <section class="section tourism">
+            <div class="container">
+                <div class="tourism-header">
+                    <div class="section-tag animate-fade-in">Guia do visitante</div>
+                    <h2 class="section-heading animate-fade-in animate-delay-1">
+                        Mbanza Kongo <em>Espera por Si</em>
+                    </h2>
+                    <div class="divider animate-fade-in animate-delay-2"></div>
+                    <p class="animate-fade-in animate-delay-3">
+                        Tudo o que precisa saber para aproveitar ao máximo a sua visita à cidade histórica 
+                        e descobrir os tesouros do antigo Reino do Kongo.
+                    </p>
+                </div>
+                
+                <div class="tourism-main">
+                    <div class="tourism-card animate-fade-in animate-delay-1">
+                        <span class="tourism-number">01</span>
+                        <div class="tourism-icon">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </div>
+                        <h3>Como Chegar</h3>
+                        <p>
+                            Mbanza Kongo fica a aproximadamente 300 km de Luanda. 
+                            Pode chegar de carro pela EN100, autocarro regular ou 
+                            avião via aeroporto local de São Salvador.
+                        </p>
+                    </div>
+                    <div class="tourism-card animate-fade-in animate-delay-2">
+                        <span class="tourism-number">02</span>
+                        <div class="tourism-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h3>Melhor Época</h3>
+                        <p>
+                            Visite durante a estação seca (maio a setembro) 
+                            para melhor aproveitar os passeios ao ar livre 
+                            e as visitas ao patrimônio histórico.
+                        </p>
+                    </div>
+                    <div class="tourism-card animate-fade-in animate-delay-3">
+                        <span class="tourism-number">03</span>
+                        <div class="tourism-icon">
+                            <i class="fas fa-camera"></i>
+                        </div>
+                        <h3>O Que Visitar</h3>
+                        <p>
+                            Ruínas da Catedral Sé, Museu do Reino do Kongo, 
+                            Árvore dos Nzambi Mpungu e as memórias do passado 
+                            espalhadas pela cidade histórica.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Roteiro Completo -->
+        <section class="section" style="background: var(--sand-cream);" id="roteiro">
+            <div class="container">
+                <div class="section-tag animate-fade-in">Roteiro sugerido</div>
+                <h2 class="section-heading animate-fade-in animate-delay-1">
+                    Um Dia <em>Perfeito</em> em Mbanza Kongo
+                </h2>
+                <div class="divider animate-fade-in animate-delay-2"></div>
+                
+                <div class="itinerary">
+                    <div>
+                        <div class="itinerary-label animate-fade-in">Roteiro completo</div>
+                        <h3 class="animate-fade-in animate-delay-1">
+                            Da História ao <em>Sabor</em>
+                        </h3>
+                        <p class="itinerary-desc animate-fade-in animate-delay-2">
+                            Combine o rico patrimônio da cidade com a melhor 
+                            gastronomia tradicional angolana no Yala Nkwu.
+                        </p>
+                    </div>
+                    <div class="itinerary-list">
+                        <div class="itinerary-item animate-fade-in animate-delay-1">
+                            <span class="itinerary-time">08h00</span>
+                            <div class="itinerary-dot"></div>
+                            <span>Café da manhã no hotel</span>
+                        </div>
+                        <div class="itinerary-item animate-fade-in animate-delay-2">
+                            <span class="itinerary-time">09h00</span>
+                            <div class="itinerary-dot"></div>
+                            <span>Ruínas da Catedral Sé — o início da história</span>
+                        </div>
+                        <div class="itinerary-item animate-fade-in animate-delay-3">
+                            <span class="itinerary-time">10h30</span>
+                            <div class="itinerary-dot"></div>
+                            <span>Museu do Reino do Kongo</span>
+                        </div>
+                        <div class="itinerary-item highlight animate-fade-in animate-delay-4">
+                            <span class="itinerary-time">13h00</span>
+                            <div class="itinerary-dot"></div>
+                            <span>Almoço no Restaurante Yala Nkwu ✦</span>
+                        </div>
+                        <div class="itinerary-item animate-fade-in animate-delay-5">
+                            <span class="itinerary-time">15h00</span>
+                            <div class="itinerary-dot"></div>
+                            <span>Passeio pelo centro histórico</span>
+                        </div>
+                        <div class="itinerary-item animate-fade-in animate-delay-6">
+                            <span class="itinerary-time">17h00</span>
+                            <div class="itinerary-dot"></div>
+                            <span>Feira local de artesanato</span>
+                        </div>
+                        <div class="itinerary-item highlight animate-fade-in animate-delay-7">
+                            <span class="itinerary-time">20h00</span>
+                            <div class="itinerary-dot"></div>
+                            <span>Jantar tradicional no Yala Nkwu ✦</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Atrações -->
+        <section class="section">
+            <div class="container">
+                <div class="section-tag animate-fade-in">Atrações imperdíveis</div>
+                <h2 class="section-heading animate-fade-in animate-delay-1">
+                    <em>Tesouros</em> Históricos
+                </h2>
+                <div class="divider animate-fade-in animate-delay-2"></div>
+                
+                <div class="attractions-grid">
+                    <div class="attraction-card animate-fade-in animate-delay-1">
+                        <div class="attraction-image">
+                            <img src="yala nkuwu-960x640.jpg" alt="Ruínas da Catedral Sé" loading="lazy">
+                        </div>
+                        <div class="attraction-content">
+                            <h3>Ruínas da Catedral Sé</h3>
+                            <p>
+                                Primeira igreja católica construída em Angola (século XVI), 
+                                símbolo da introdução do cristianismo no Reino do Kongo.
+                            </p>
+                            <div class="attraction-info">
+                                <span><i class="fas fa-clock"></i> Visita: 1 hora</span>
+                                <span><i class="fas fa-ticket-alt"></i> Entrada gratuita</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="attraction-card animate-fade-in animate-delay-2">
+                        <div class="attraction-image">
+                            <img src="yala nkuwu-960x640.jpg" alt="Museu do Reino do Kongo" loading="lazy">
+                        </div>
+                        <div class="attraction-content">
+                            <h3>Museu do Reino do Kongo</h3>
+                            <p>
+                                Acervo fascinante com artefatos, documentos e 
+                                peças que contam a história gloriosa do reino.
+                            </p>
+                            <div class="attraction-info">
+                                <span><i class="fas fa-clock"></i> Visita: 2 horas</span>
+                                <span><i class="fas fa-ticket-alt"></i> AOA 1.000</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="attraction-card animate-fade-in animate-delay-3">
+                        <div class="attraction-image">
+                            <img src="yala nkuwu-960x640.jpg" alt="Árvore Sagrada Nzambi Mpungu" loading="lazy">
+                        </div>
+                        <div class="attraction-content">
+                            <h3>Árvore Sagrada</h3>
+                            <p>
+                                Local sagrado onde os reis do Kongo faziam 
+                                importantes decisões e cerimônias tradicionais.
+                            </p>
+                            <div class="attraction-info">
+                                <span><i class="fas fa-clock"></i> Visita: 30 minutos</span>
+                                <span><i class="fas fa-ticket-alt"></i> Entrada gratuita</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Onde Ficar -->
+        <section class="section" style="background: var(--earth-brown); color: var(--sand-cream);">
+            <div class="container">
+                <div class="section-tag animate-fade-in">Hospedagem</div>
+                <h2 class="section-heading animate-fade-in animate-delay-1">
+                    <em>Onde Ficar</em> em Mbanza Kongo
+                </h2>
+                <div class="divider animate-fade-in animate-delay-2"></div>
+                
+                <div class="accommodation-grid">
+                    <div class="accommodation-card animate-fade-in animate-delay-1">
+                        <div class="accommodation-icon">
+                            <i class="fas fa-hotel"></i>
+                        </div>
+                        <h3>Pousada Real</h3>
+                        <p>
+                            Hotel 4 estrelas no centro histórico, 
+                            com vista para as ruínas da catedral.
+                        </p>
+                        <div class="accommodation-details">
+                            <span><i class="fas fa-bed"></i> 20 quartos</span>
+                            <span><i class="fas fa-wifi"></i> WiFi</span>
+                            <span><i class="fas fa-swimming-pool"></i> Piscina</span>
+                        </div>
+                    </div>
+                    
+                    <div class="accommodation-card animate-fade-in animate-delay-2">
+                        <div class="accommodation-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <h3>Residência Kongo</h3>
+                        <p>
+                            Hospedagem familiar com ambiente acolhedor 
+                            e café da manhã caseiro tradicional.
+                        </p>
+                        <div class="accommodation-details">
+                            <span><i class="fas fa-bed"></i> 8 quartos</span>
+                            <span><i class="fas fa-utensils"></i> Cozinha</span>
+                            <span><i class="fas fa-car"></i> Estacionamento</span>
+                        </div>
+                    </div>
+                    
+                    <div class="accommodation-card animate-fade-in animate-delay-3">
+                        <div class="accommodation-icon">
+                            <i class="fas fa-campground"></i>
+                        </div>
+                        <h3>Camping Cultural</h3>
+                        <p>
+                            Área de camping para aventureiros que querem 
+                            experienciar a natureza local.
+                        </p>
+                        <div class="accommodation-details">
+                            <span><i class="fas fa-tent"></i> 30 lugares</span>
+                            <span><i class="fas fa-shower"></i> Banheiros</span>
+                            <span><i class="fas fa-fire"></i> Área de fogueira</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dicas Importantes -->
+        <section class="section" style="background: var(--sand-cream);">
+            <div class="container">
+                <div class="section-tag animate-fade-in">Dicas essenciais</div>
+                <h2 class="section-heading animate-fade-in animate-delay-1">
+                    <em>Informações</em> Importantes
+                </h2>
+                <div class="divider animate-fade-in animate-delay-2"></div>
+                
+                <div class="tips-grid">
+                    <div class="tip-card animate-fade-in animate-delay-1">
+                        <div class="tip-icon">
+                            <i class="fas fa-money-bill"></i>
+                        </div>
+                        <h3>Moeda</h3>
+                        <p>
+                            A moeda local é o Kwanza (AOA). 
+                            Leve dinheiro em espécie, pois muitos estabelecimentos 
+                            não aceitam cartões internacionais.
+                        </p>
+                    </div>
+                    
+                    <div class="tip-card animate-fade-in animate-delay-2">
+                        <div class="tip-icon">
+                            <i class="fas fa-language"></i>
+                        </div>
+                        <h3>Idioma</h3>
+                        <p>
+                            Português é o idioma oficial, mas o kikongo 
+                            é amplamente falado. Aprender algumas palavras 
+                            básicas em kikongo será muito apreciado.
+                        </p>
+                    </div>
+                    
+                    <div class="tip-card animate-fade-in animate-delay-3">
+                        <div class="tip-icon">
+                            <i class="fas fa-camera"></i>
+                        </div>
+                        <h3>Fotografia</h3>
+                        <p>
+                            Peça permissão antes de fotografar pessoas locais. 
+                            Nos locais históricos, a fotografia geralmente 
+                            é permitida sem flash.
+                        </p>
+                    </div>
+                    
+                    <div class="tip-card animate-fade-in animate-delay-4">
+                        <div class="tip-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Saúde</h3>
+                        <p>
+                            Beba apenas água engarrafada. 
+                            Use repelente de insetos e protetor solar. 
+                            Leve medicamentos básicos.
+                        </p>
+                    </div>
+                    
+                    <div class="tip-card animate-fade-in animate-delay-5">
+                        <div class="tip-icon">
+                            <i class="fas fa-shopping-bag"></i>
+                        </div>
+                        <h3>Compras</h3>
+                        <p>
+                            Na feira local, encontre artesanato tradicional, 
+                            tecidos e produtos agrícolas. 
+                            Negocie preços de forma respeitosa.
+                        </p>
+                    </div>
+                    
+                    <div class="tip-card animate-fade-in animate-delay-6">
+                        <div class="tip-icon">
+                            <i class="fas fa-pray"></i>
+                        </div>
+                        <h3>Cultura</h3>
+                        <p>
+                            Vista-se modestamente ao visitar locais sagrados. 
+                            Respeite as tradições locais e 
+                            seja cortês com os moradores.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-inner">
+                <div class="animate-fade-in">
+                    <h2>Receba as <em>nossas novidades</em></h2>
+                    <p>Novos pratos, eventos culturais e promoções exclusivas direto no seu email.</p>
+                </div>
+                <form class="newsletter-form animate-fade-in animate-delay-1" id="newsletterForm">
+                    <input type="email" required placeholder="O seu melhor email">
+                    <button type="submit">
+                        <i class="fas fa-paper-plane"></i>
+                        Subscrever
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <div class="logo-emblem">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        Yala Nkwu
+                    </a>
+                    <p>
+                        Autêntica gastronomia tradicional angolana no coração de Mbanza Kongo, 
+                        desde 2013. Celebrando a cultura do Reino do Kongo em cada prato.
+                    </p>
+                    <div class="socials">
+                        <a href="#" class="social-btn" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-btn" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-btn" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="#" class="social-btn" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Navegação</h4>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="#roteiro">Roteiro</a></li>
+                        <li><a href="#atracoes">Atrações</a></li>
+                        <li><a href="#hospedagem">Onde Ficar</a></li>
+                        <li><a href="#contato">Reservas</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Turismo</h4>
+                    <ul>
+                        <li><a href="#roteiro">Roteiro Completo</a></li>
+                        <li><a href="#como-chegar">Como Chegar</a></li>
+                        <li><a href="#melhor-epoca">Melhor Época</a></li>
+                        <li><a href="#dicas">Dicas Importantes</a></li>
+                        <li><a href="#restaurantes">Gastronomia</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Informações</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Mbanza Kongo, Zaire, Angola</li>
+                        <li><i class="fas fa-phone"></i> +244 923 456 789</li>
+                        <li><i class="fas fa-envelope"></i> info@yalankwu.com</li>
+                        <li><i class="fas fa-clock"></i> Ter–Dom: 11h–22h</li>
+                        <li><i class="fas fa-award"></i> Património UNESCO</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2024 Restaurante Yala Nkwu. Todos os direitos reservados.</span>
+                <span>Desenvolvido com ❤️ para a cultura angolana</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
